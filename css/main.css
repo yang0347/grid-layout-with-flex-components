@@ -65,7 +65,7 @@ body {
 .emoji a{
     display: flex;
     order: 3; 
-    vertical-align: bottom;
+    align-items:flex-end;
     margin-top: auto; 
 }
 
