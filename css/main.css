@@ -44,7 +44,6 @@ body {
 .emoji{
     display: flex;
     flex-direction: column;
-     
     vertical-align: baseline;
 
    
