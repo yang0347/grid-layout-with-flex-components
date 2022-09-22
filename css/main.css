@@ -27,6 +27,7 @@ body {
   }
 
   .emojis{
+    width: 50%;
     display: grid;
     grid-template-areas:
     "e1 e2"
@@ -38,3 +39,36 @@ body {
   .emoji:nth-child(2){grid-area: e2;}
   .emoji:nth-child(3){grid-area: e3;}
   .emoji:nth-child(4){grid-area: e4;}
+
+  
+.emoji{
+    display: flex;
+    flex-direction: column;
+     
+    vertical-align: baseline;
+
+   
+
+      
+}
+
+.emoji .icon{
+    display: flex;
+    align-self: center;
+}
+
+.emoji h2{
+    display: flex;
+    order: 1;
+}
+
+.emoji p{
+    display: flex;
+    order: 2;
+}
+
+.emoji a{
+    display: flex;
+    order: 3;  
+}
+
