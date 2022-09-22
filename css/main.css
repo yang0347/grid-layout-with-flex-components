@@ -68,6 +68,7 @@ body {
 
 .emoji a{
     display: flex;
-    order: 3;  
+    order: 3; 
+    align-items: flex-end; 
 }
 
